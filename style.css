@@ -1,0 +1,73 @@
+.card{
+    width: 500px;
+    margin: auto;
+    height: 400px;
+    padding: 10px;
+}
+.card_paragraph{
+    font-size: 14px;
+    text-align: left;
+}
+.go{
+    position:absolute;
+    left:50%;
+    color:red;
+}
+.you{
+    color:deeppink;
+    position: relative;
+    left: 15px;  
+}
+.time{
+    background-color: pink;
+    border-radius: 10px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.tym{
+    color:deeppink;
+}
+.header{
+    width:500px;
+    margin: auto;
+    height:200px;
+}
+.ingre{
+    color:brown;
+    position: relative;
+    left: 15px; 
+   
+}
+.time ::marker{
+    color:deeppink;
+}
+.ingre{
+    color:brown;
+}
+.body ::marker{
+    color:brown;
+}
+.body{
+    line-height: 25px;
+    font-size: 14px;
+}
+.instr {
+   color:brown;
+    position: relative;
+    left: 15px; 
+} 
+.nutri{
+    color:brown;
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .card {
+        width: 60%;
+        
+    }
+}
